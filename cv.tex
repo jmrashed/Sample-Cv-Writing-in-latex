@@ -1,0 +1,66 @@
+\documentclass[11pt,a4paper,sans]{moderncv} 
+
+\moderncvstyle{classic} 
+\moderncvcolor{blue} 
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75]{geometry}
+
+\name{Your}{Name}
+\title{Curriculum Vitae}
+\address{Your Street}{Your City}{Your Country}
+\phone[mobile]{+1~(234)~567~890}
+\email{youremail@email.com}
+\social[linkedin]{linkedin.com/in/yourprofile}
+\social[twitter]{twitter.com/yourusername}
+\social[github]{github.com/yourusername}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Education}
+\cventry{Year--Year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
+\cventry{Year--Year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+
+\section{Experience}
+\subsection{Vocational}
+\cventry{Year--Year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
+Detailed achievements:%
+\begin{itemize}%
+\item Achievement 1;
+\item Achievement 2, with sub-achievements:
+  \begin{itemize}%
+  \item Sub-achievement (a);
+  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
+    \begin{itemize}
+    \item Sub-sub-achievement i;
+    \item Sub-sub-achievement ii;
+    \item Sub-sub-achievement iii;
+    \end{itemize}
+  \item Sub-achievement (c);
+  \end{itemize}
+\item Achievement 3.
+\end{itemize}}
+
+\subsection{Miscellaneous}
+\cventry{Year--Year}{Job title}{Employer}{City}{}{Description}
+
+\section{Languages}
+\cvitemwithcomment{Language 1}{Skill level}{Comment}
+\cvitemwithcomment{Language 2}{Skill level}{Comment}
+\cvitemwithcomment{Language 3}{Skill level}{Comment}
+
+\section{Computer skills}
+\cvitem{Category 1}{Skill 1, Skill 2, Skill 3}
+\cvitem{Category 2}{Skill 4, Skill 5}
+
+\section{Interests}
+\cvitem{Hobby 1}{Description}
+\cvitem{Hobby 2}{Description}
+\cvitem{Hobby 3}{Description}
+
+\section{References}
+\cvitem{}{Available upon request}
+
+\end{document}
