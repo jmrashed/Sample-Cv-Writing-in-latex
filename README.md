@@ -17,6 +17,13 @@ This is a sample LaTeX template for a software engineer's CV, based on the GPT-3
 
 ## Demo 
 - [Rasheduzzaman_CV.pdf](assets/Rasheduzzaman_CV.pdf)
+<img src="./assets/src/1.jpg">
+<img src="./assets/src/2.jpg">
+<img src="./assets/src/3.jpg">
+<img src="./assets/src/4.jpg">
+<img src="./assets/src/5.jpg">
+
+
 ## License
 
 This LaTeX template is licensed under the MIT License. Feel free to use, modify, and distribute the template as you wish. Attribution is not required, but appreciated.
