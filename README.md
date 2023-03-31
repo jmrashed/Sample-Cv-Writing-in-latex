@@ -15,10 +15,11 @@ This is a sample LaTeX template for a software engineer's CV, based on the GPT-3
 - The `fontspec`, `titlesec`, `enumitem`, and `hyperref` packages for custom fonts, section titles, lists, and hyperlinks.
 - A custom font such as Roboto, which can be downloaded for free from Google Fonts.
 
+## Demo 
+- [Rasheduzzaman_CV.pdf](assets/Rasheduzzaman_CV.pdf)
 ## License
 
 This LaTeX template is licensed under the MIT License. Feel free to use, modify, and distribute the template as you wish. Attribution is not required, but appreciated.
 
 ## Credits
 
-This template was created by ChatGPT, a large language model trained by OpenAI, based on the GPT-3.5 architecture.
